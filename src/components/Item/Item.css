@@ -2,9 +2,10 @@
   width: 20rem;
   display: flex;
   flex-direction: column;
-
+  background-color: rgb(202, 127, 46);
+  border-radius: 2rem;
   gap: 1rem;
-  padding-bottom: 1rem;
+  padding: 2rem;
 }
 
 .card img {

@@ -4,7 +4,6 @@ import "./Count.css";
 export const Count = () => {
   const [count, setCount] = useState(0);
 
-  // Funciones para incrementar y decrementar
   const increment = () => {
     setCount(count + 1);
   };

@@ -1,14 +1,10 @@
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-/* -------------------------------------------------------------------------- */
-/*                              CREAMOS CONTEXTO                              */
-/* -------------------------------------------------------------------------- */
+
 const CartContext = createContext();
 
-/* -------------------------------------------------------------------------- */
-/*                                 CUSTOM HOOK                                */
-/* -------------------------------------------------------------------------- */
+
 export const useCart = () => {
   const context = useContext(CartContext);
 
@@ -18,21 +14,16 @@ export const useCart = () => {
   return context;
 };
 
-/* -------------------------------------------------------------------------- */
-/*                                  PROVEEDOR                                 */
-/* -------------------------------------------------------------------------- */
+
 export const CartProvider = ({ children }) => {
   const navigate = useNavigate();
   const [cart, setCart] = useState([]);
 
-  //Evalua existencia:  retorna un booleano
   const isInCart = (item) => {
     const inCart = cart.some((element) => element.id === item.id);
     return inCart;
   };
-  // Para los que deciden no usar el contador y usar "quantity" en los productos
 
-  //Agregar al carrito
   const addItem = (item) => {
     if (isInCart(item)) {
       alert("El producto ya existe en el carrito");
@@ -40,34 +31,29 @@ export const CartProvider = ({ children }) => {
     }
 
     setCart([...cart, item]);
-    alert("Producto agregado al carrito 🎉");
+    alert("Producto agregado al carrito");
   };
 
-  //Eliminar del carrito
   const removeItem = (id) => {
     const updatedCart = cart.filter((element) => element.id !== id);
     setCart(updatedCart);
-    alert("Producto eliminado ✅");
+    alert("Producto eliminado");
   };
 
-  //Vacia el carrito
   const clearCart = () => {
     setCart([]);
   };
 
-  //Total de items en carrito (para este caso sin quantity)
   const getTotalItems = () => {
     return cart.length;
   };
 
-  //Total a pagar
   const getCartTotal = () => {
     return cart.reduce((acc, element) => acc + element.price, 0);
   };
 
-  //Checkout
   const checkout = () => {
-    alert("Su compra ha sido realizada 🎉");
+    alert("Su compra ha sido realizada");
     clearCart();
     navigate("/");
   };

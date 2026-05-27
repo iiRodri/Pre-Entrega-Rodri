@@ -2,36 +2,36 @@
   {
     "id": 1,
     "name": "Blue lock vol.28",
-    "description": "Zapatilla tipo lona en azul vibrante con puntera reforzada y cordones elásticos. Ideales para gateo y sus primeros pasos con total seguridad.",
-    "price": 12500,
+    "description": "El volumen 28 de Blue Lock marca el comienzo del enfrentamiento final de la Neo Egoist League. Tras la victoria de Bastard München, Isagi demuestra una evolución enorme y se convierte en una amenaza directa para Kaiser, quien comienza a perder el control por su obsesión de seguir siendo el mejor delantero del equipo.",
+    "price": 11000,
     "image": "https://static.wikia.nocookie.net/bluelock/images/1/1a/JP_Volumen_28.png/revision/latest?cb=20240305233813&path-prefix=es"
   },
   {
     "id": 2,
     "name": "Chainsaw man vol.11",
-    "description": "Zapatos estilo Guillermina en color fucsia con detalle de moño. Suela blanda y flexible, perfecta para proteger los pies de tu bebé con delicadeza.",
+    "description": "Chainsaw Man Volume 11 es el volumen final de la primera parte de Chainsaw Man. La historia muestra el enfrentamiento definitivo entre Denji y Makima, quien revela por completo sus verdaderas intenciones y el alcance de su poder.",
     "price": 12500,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAmid8XHBa_yRW5nM0AKzTLd68YYx0Fx3Mvw&s"
   },
   {
     "id": 3,
     "name": "My hero academia vol.42",
-    "description": "Sandalias de tacón alto en cuero texturizado rosa neón. Diseño de plataforma ancha que combina tendencia y estabilidad para salidas nocturnas.",
-    "price": 28900,
+    "description": "My Hero Academia Volume 42 es el volumen que cierra definitivamente la historia principal de My Hero Academia. Después de la batalla final contra All For One y Shigaraki, el mundo intenta reconstruirse mientras los héroes y estudiantes enfrentan las consecuencias de la guerra.",
+    "price": 13000,
     "image": "https://preview.redd.it/my-hero-academia-vol-42-cover-textless-edit-v0-mhuh98b8wk2e1.jpeg?auto=webp&s=11c5a563e4f3b17b2a6a6c09691e28f8d8765c17"
   },
   {
     "id": 4,
     "name": "Kimetsu no yaiba vol.17",
-    "description": "Stilettos clásicos en cuero charolado color borravino. Punta fina y tacón aguja para un look sofisticado de oficina o eventos de gala.",
-    "price": 35000,
+    "description": "Kimetsu no Yaiba Volume 17 continúa el intenso arco de la Fortaleza Infinita. Tanjiro y los Pilares enfrentan a las Lunas Superiores en batallas cada vez más peligrosas mientras Muzan mueve sus piezas dentro de la fortaleza.",
+    "price": 12000,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUVyZkMDutkZD2JbPe4eYWPANbrBrkFnqvw&s"
   },
   {
     "id": 5,
     "name": "Jujutsu kaisen vol.25",
-    "description": "Zapatos Oxford de cuero genuino color suela con acabado artesanal. Un clásico atemporal con cordones encerados para el hombre moderno.",
-    "price": 42000,
+    "description": "Jujutsu Kaisen Volume 25 continúa los acontecimientos del Juego del Sacrificio tras la liberación de Gojo Satoru. Mientras los hechiceros se preparan para la batalla final, las tensiones entre Sukuna y los protagonistas aumentan todavía más.",
+    "price": 12000,
     "image": "https://cdn.kobo.com/book-images/1810800b-27ec-4dc8-981e-4ca895909dbe/1200/1200/False/jujutsu-kaisen-vol-25.jpg"
   }
 ]

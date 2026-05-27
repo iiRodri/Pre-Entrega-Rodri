@@ -10,7 +10,7 @@ export const CartView = () => {
 
   return (
     <section className="cart-container">
-      <h1>Tu carrito de compras 🛒</h1>
+      <h1>Tu carrito de compras:</h1>
 
       {cart.length ? (
         <>
@@ -19,7 +19,7 @@ export const CartView = () => {
         </>
       ) : (
         <>
-          <p className="empty-cart">El carrito esta vacío 😕</p>
+          <p className="empty-cart">El carrito esta vacío</p>
           <Link className="btn primary bg-primary" to={"/"}>
             Volver
           </Link>
